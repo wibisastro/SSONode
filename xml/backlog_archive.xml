@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<backlog>
+    <title>Backlog Archive</title>
+	<sprint>
+        <icon>fa fa-check</icon>
+        <icontype>event-icon-success</icontype>
+        <version>0.1.1</version>
+        <side>on-left</side>
+        <person>Wibi</person>
+        <date></date>
+        <caption>Definition of Done</caption>
+        <story><![CDATA[
+Script dinyatakan selesai jika sudah sesuai dengan apa yang ditulis di skenario Test.
+        ]]></story>
+	</sprint>
+</backlog>

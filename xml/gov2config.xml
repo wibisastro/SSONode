@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gov2config>
+    <comm>ok</comm>
+    <webmaster>wibi@alumni.ui.ac.id</webmaster>
+    <flickr>
+        <auth>http://www.flickr.com/services/auth/?</auth>
+        <rest>http://flickr.com/services/rest/?</rest>
+    </flickr>
+    <platform>
+        <auth>https://sso.gov2.web.id</auth>
+        <arch>https://arsitektur.gov2.web.id</arch>
+        <stan>https://standar.gov2.web.id</stan>
+        <apik>https://gov2.mti08.vlsm.org</apik>
+    </platform>
+    <apikey>
+        <public></public>
+        <secret></secret>
+    </apikey>
+    <url>
+        <js>/js</js>
+        <css>/css</css>
+        <img>/images</img>
+    </url>
+</gov2config>

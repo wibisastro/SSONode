@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<footer>
+	<menu>
+        <menu_id>1</menu_id>
+		<caption>Information</caption>
+        <type>dropdown</type>
+        <menu>
+            <caption>Product Backlog</caption>
+            <url>backlog.php</url>
+            <menu_id>5</menu_id>
+        </menu>
+        <menu>
+            <caption>Delivery Information</caption>
+            <url>mobil.php</url>
+            <menu_id>6</menu_id>
+        </menu>
+        <menu>
+            <caption>Privacy Policy</caption>
+            <url>aboutus.php</url>
+            <menu_id>7</menu_id>
+        </menu>
+        <menu>
+            <caption>Terms &amp; Conditions</caption>
+            <url>mobil.php</url>
+            <menu_id>8</menu_id>
+        </menu>
+	</menu>
+    <menu>
+        <menu_id>2</menu_id>
+        <caption>My Account</caption>
+        <type>dropdown</type>
+        <menu>
+            <caption>My orders</caption>
+            <url>robot.php</url>
+            <menu_id>9</menu_id>
+        </menu>
+        <menu>
+            <caption>My merchandise returns</caption>
+            <url>mobil.php</url>
+            <menu_id>10</menu_id>
+        </menu>
+            <menu>
+            <caption>My addresses</caption>
+            <url>robot.php</url>
+            <menu_id>11</menu_id>
+        </menu>
+        <menu>
+            <caption>My personal info</caption>
+            <url>mobil.php</url>
+            <menu_id>12</menu_id>
+        </menu>
+    </menu>
+	<menu>
+		<caption>Service</caption>
+        <menu_id>3</menu_id>
+        <type>dropdown</type>
+        <menu>
+            <caption>Contact Us</caption>
+            <url>robot.php</url>
+            <menu_id>13</menu_id>
+        </menu>
+        <menu>
+            <caption>Returns</caption>
+            <url>mobil.php</url>
+            <menu_id>14</menu_id>
+        </menu>
+        <menu>
+            <caption>Affiliates</caption>
+            <url>robot.php</url>
+            <menu_id>15</menu_id>
+        </menu>
+        <menu>
+            <caption>Site Map</caption>
+            <url>mobil.php</url>
+            <menu_id>16</menu_id>
+        </menu>
+	</menu>
+    <menu>
+        <caption>Follow Us</caption>
+        <menu_id>4</menu_id>
+        <type>dropdown</type>
+        <menu>
+            <caption>Facebook</caption>
+            <url>robot.php</url>
+            <menu_id>17</menu_id>
+        </menu>
+        <menu>
+            <caption>Twitter</caption>
+            <url>mobil.php</url>
+            <menu_id>18</menu_id>
+        </menu>
+        <menu>
+            <caption>YouTube</caption>
+            <url>robot.php</url>
+            <menu_id>19</menu_id>
+        </menu>
+        <menu>
+            <caption>Ask.fm</caption>
+            <url>mobil.php</url>
+            <menu_id>20</menu_id>
+        </menu>
+    </menu>
+</footer>

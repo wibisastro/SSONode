@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<backlog>
+    <title>Product Backlog</title>
+	<sprint>
+        <icon>fa fa-smile-o</icon>
+        <icontype>event-icon-primary</icontype>
+        <version>0.1.2</version>
+        <side>on-right</side>
+        <person>Wibi</person>
+        <date></date>
+        <caption>User Story</caption>
+        <story><![CDATA[
+Sebagai pengguna platform saya ingin melihat sebuah market place tempat aplikasi-aplikasi dipublikasi dalam bentuk catalog agar saya bisa dengan mudah melihat dan memilih aplikasi yang cocok untuk saya
+        ]]></story>
+	</sprint>
+</backlog>
