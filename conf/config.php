@@ -25,7 +25,7 @@ ini_set("display_errors", 1);
 #---------------------------------------path configuration
 
 switch ($_SERVER["SERVER_NAME"]) {
-    case "sso.<yoursub.domain.id>":
+    case "sso.code4.gov2.web.id":
         define("dirpath",str_replace("/controller","",$_SERVER["DOCUMENT_ROOT"]));
         define("PATH_VENDOR","/var/www");
         define("STAGE","build");
