@@ -16,16 +16,16 @@ $doc->content("../controller/gov2view.php");
 
 switch($_GET["cmd"]) {
     case "activate":
-        $doc->pagetitle="e-Planning Activation";
+        $doc->pagetitle="Gov 2.0 SSO Node Activation";
         $view="activate";
     break;
     case "signup":
-        $doc->pagetitle="e-Planning Registration";
+        $doc->pagetitle="Gov 2.0 SSO Node Registration";
         $view="signup";
     break;
     default:
-        if ($gov2->error) {$doc->pagetitle="Gov 2.0 Node Login";}
-        else {$doc->pagetitle="e-Planning Profile";}
+        if ($gov2->error) {$doc->pagetitle="Gov 2.0 SSO Node Login";}
+        else {$doc->pagetitle="Gov 2.0 SSO Node Profile";}
 }
 
 $doc->error_message();

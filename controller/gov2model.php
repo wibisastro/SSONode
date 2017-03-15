@@ -27,8 +27,8 @@ switch ($_GET['error']) {
     define("gov2xmlpath","/var/www/sso/xml/"); #-ganti jika lokasinya dipindah. saran pindahkan dan beri permission tulis
 
 switch ($_SERVER["SERVER_NAME"]) {
-    case "sso.<yoursub.domain.id>":
-        define("SSONODE","https://sso.<yoursub.domain.id>");
+    case "sso.code4.gov2.web.id":
+        define("SSONODE","https://sso.code4.gov2.web.id");
         define("SSOCONN","https://sso.gov2.web.id");
     break;
     default:
