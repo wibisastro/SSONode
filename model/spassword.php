@@ -47,12 +47,13 @@ class spassword extends ssignup {
         'subject' => 'Permintaan Reset Password Gov 2.0', 
         'text'    => $bodymail
         ));
-
+/*
         $mailgun->sendMessage($config->mailgun->domain, array('from' => 'noreply@cybergl.co.id', 
         'to'      => 'wibi@cybergl.co.id', 
         'subject' => 'Permintaan Reset Password Gov 2.0 (copy)', 
         'text'    => $bodymail.$req_ip
         ));
+*/
 	return $id;
 	}
 /*
@@ -84,16 +85,18 @@ class spassword extends ssignup {
 		$this->write_db($query,"spassword_reset_password");
 		include(viwpath."/slogin/mail_resetpwd.php");
 //		echo $bodymail;
+/*
         $mailgun->sendMessage($config->mailgun->domain, array('from' => 'noreply@cybergl.co.id', 
         'to'      => $data->email, 
         'bcc'     => 'wibi@cybergl.co.id', 
         'subject' => 'Password Anda Telah Berhasil Direset', 
         'text'    => $bodymail
         ));
-        $this->spassword_reset_password_cloud($newpass,$reset->account_id);
+*/
+//        $this->spassword_reset_password_cloud($newpass,$reset->account_id);
 	return $data;
 	}
-    
+/*    
 	function spassword_reset_password_cloud ($pass,$account_id) {
         global $config,$mailgun;
         #-----init
@@ -127,6 +130,8 @@ class spassword extends ssignup {
 //        echo $output;
         return simplexml_load_string($output);        
     }
+	*/
+	
     /*
 	function spassword_history_log($account_id=0,$email,$new_passwd){
 		global $tbl_passhistory,$ses;		

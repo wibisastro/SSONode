@@ -23,16 +23,16 @@ switch ($_GET['error']) {
 #-----instalation helper, must be shut off upon success
   ini_set("display_errors", 1);
     session_start();
-
-    define("gov2xmlpath","/var/www/sso/xml/"); #-ganti jika lokasinya dipindah. saran pindahkan dan beri permission tulis
-
+	
 switch ($_SERVER["SERVER_NAME"]) {
     case "sso.code4.gov2.web.id":
+		define("GOV2XMLPATH","../xml"); #-ganti jika lokasinya dipindah. 
         define("SSONODE","https://sso.code4.gov2.web.id");
         define("SSOCONN","https://sso.gov2.web.id");
     break;
     default:
         define("account_url","http://localhost/gov2/sso/controller"); #-jangan diganti
+		define("GOV2XMLPATH","../xml"); #-ganti jika lokasinya dipindah. 
 }
 
 
@@ -53,7 +53,7 @@ class gov2model {
 	}
     
     function readxml ($filename) {
-        if (file_exists(gov2xmlpath."/".$filename.".xml")) {return simplexml_load_file(gov2xmlpath."/".$filename.".xml");} 
+        if (file_exists(GOV2XMLPATH."/".$filename.".xml")) {return simplexml_load_file(GOV2XMLPATH."/".$filename.".xml");} 
         else {return "NotExist";}    
     } 
     
@@ -67,7 +67,7 @@ class gov2model {
                 if ($privilege=="public") {unset($error);} else {
                     if ($privilege=="member" || $privilege=="webmaster") {
                         $members=$this->readxml("gov2member");
-                        if ($members!="NotExist") {
+                        if ($members && $members!="NotExist") {
                             foreach ($members->member as $member) {
                                 if ($member->account_id==$_SESSION["account_id"]) {
                                     $valid=$member;

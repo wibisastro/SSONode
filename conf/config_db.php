@@ -27,10 +27,10 @@ class db_connection {
 		static $recent_random;
         switch (STAGE) {
             case "build":
-                $user="bappeda";
+                $user="code4sso";
                 $pass="";
                 $host="localhost";
-                $db_name="bappeda_sso";
+                $db_name="code4_sso";
             break;
             default:
                 $user="root";

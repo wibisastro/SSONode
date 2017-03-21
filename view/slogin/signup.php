@@ -19,7 +19,7 @@
                             <?echo $doc->txt($doc->error);?>
                         </div>
                         <?}?>
-                        <p align="center" style="color:#999">Registrasi</p>
+            				<h4 align="center" style="color:#999">Register to <?echo $_SESSION['caller'];?></h4>
                             <!--form class="login-form mt-lg" -->
                             <div class="input-group">
                                 <span class="input-group-addon">
